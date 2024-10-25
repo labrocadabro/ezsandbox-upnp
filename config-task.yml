@@ -5,7 +5,7 @@
 
 ## Task Name ##
 # Maximum 24 characters.
-task_name: "Task Name"
+task_name: "EZSandbox UPnP Basics"
 
 ## Task Author ##
 author: "Koii"
@@ -13,19 +13,19 @@ author: "Koii"
 # Task Description Markdown ##
 # If you specify a markdown file, the description field will be ignored.
 # Markdown is recommended for better formatting.
-markdownDescriptionPath: "./TaskDescription.md"
+markdownDescriptionPath: ""
 
 ## Task Description ##
 # Ignored if you specify a markdown file.
-description: "Task description."
+description: "EZSandbox UPnP Basics task. Demonstrates how to use REST endpoints."
 
 ## Repository URL ##
 # Must be public for whitelisted tasks.
-repositoryUrl: "https://github.com/koii-network/task-template"
+repositoryUrl: "https://github.com/labrocadabro/ezsandbox-upnp"
 
 ## Image URL ##
 # 230x86 pixels.
-imageUrl: "imageUrl"
+imageUrl: "https://bafybeidzhth77azohk5vxojhm2cgpncg67doxgaqlpa5sqmr5nkpxwzvgq.ipfs.w3s.link/ezsandbox.png"
 
 ## Info URL ##
 infoUrl: "infoUrl"
@@ -93,15 +93,11 @@ space: 0.1
 ## Requirement Tags (Optional) ##
 # To add more global variables and task variables, please refer to the type, value, description format shown below.
 requirementsTags:
-  - type: CPU
-    value: "4-core"
-  - type: RAM
-    value: "5 GB"
-  - type: STORAGE
-    value: "5 GB"
   - type: TASK_VARIABLE
-    value: "TEST_VARIABLE"
-    description: "An example to demonstrate the use of task variables."
+    value: "SECRET"
+    description: "The secret you want to tell other nodes!"
+  - type: ADDON
+    value: "REQUIRE_INTERNET"
 
 ## Tags ##
 # See https://www.koii.network/docs/develop/command-line-tool/create-task-cli/create-task#tags for available tag options.
