@@ -4,5 +4,5 @@ See [EZSandbox Lesson 2, Part 2](https://github.com/koii-network/ezsandbox/blob/
 
 If you are new to writing Koii tasks, we recommend you work through the entire [EZSandbox](https://github.com/koii-network/ezsandbox/tree/main).
 
-!> [!IMPORTANT]
+> [!IMPORTANT]
 > In order to test this task, you must set `SECRET` in your .env file
