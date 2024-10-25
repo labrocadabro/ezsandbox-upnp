@@ -1,11 +1,9 @@
-import { getFileText } from "./fileUtils.js";
-
-export async function audit(submission, roundNumber) {
+export async function audit(submission, roundNumber, submitterKey) {
   /**
    * Audit a submission
    * This function should return true if the submission is correct, false otherwise
    */
-  console.log(`AUDIT SUBMISSION FOR ROUND ${roundNumber}`);
-  const fileContent = await getFileText(submission);
-  return typeof fileContent === "string" && fileContent.length > 0;
+  console.log(`AUDIT SUBMISSION FOR ROUND ${roundNumber} from ${submitterKey}`);
+  // confirm that the submission is a string and is not empty
+  return typeof submission === "string" && submission.length > 0;
 }
